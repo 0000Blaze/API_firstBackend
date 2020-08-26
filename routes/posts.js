@@ -22,6 +22,7 @@ router.get('/specific',(req,res) =>{
 });
 
 //SUBMIT a post
+
 router.post('/',async (req,res) => {
     const post = new Post({
         title: req.body.title,
